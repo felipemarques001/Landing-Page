@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Loopstudios landing page</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <link href="fontawesome/css/all.css" rel="stylesheet">
+</head>
+<body>
+
+  <header id="hero-image"> 
+    <section id="sectionLinks"> <!--CRIAMOS ESSA TAG PARA ORGANIZAR O CONTEÚDO, POIS A TAG HEADER VAI SER PARA COLOCAR A IMAGEM DO HERO-->
+      <a href="#" id="loopstudios">loopstudios</a>
+      <nav>
+        <section id="menuHamburger">
+          <div id="line1"></div>
+          <div id="line2"></div>
+          <div id="line3"></div>
+        </section>
+
+        <ul id="ul">
+          <li><a href="#firstMain" onclick="MudarBody(), fecharMenu()" >About Us</a></li>
+          <li><a href="#secondMain" onclick="MudarBody(), fecharMenu()">Our Creations</a></li>
+          <li><a href="#contato" onclick="MudarBody(), fecharMenu()">Contact Us</a></li>
+          <li><a href="#warning" onclick="MudarBody(), fecharMenu()">Warning</a></li>
+          <li><a href="#developerSocialNetworks" onclick="MudarBody(), fecharMenu()">Developer Social Networks</a></li>
+        </ul>
+      </nav>
+    </section>
+    <p id="textHero">IMMERSIVE EXPERIENCES THAT DELIVER</p>
+  </header>
+
+
+
+  <main id="firstMain">
+    <img id="interactiveMobile" src="./images/mobile/image-interactive.jpg">
+    <section id="about">
+      <h2>THE LEADER IN INTERACTIVE VR</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </section>
+  </main>
+  
+  
+  <main id="secondMain">  
+    <h1>OUR CREATIONS</h1>
+
+    <section id="crations">
+      <div id="deepEarth">
+        <p>DEEP EARTH</p>
+      </div>
+
+      <div id="nightArcade">
+        <p>NIGHT ARCADE</p>
+      </div>
+
+      <div id="soccer">
+        <p>SOCCER TEAM VR</p>
+      </div>
+
+      <div id="grid">
+        <p>THE GRID</p>
+      </div>
+
+      <div id="above">
+        <p>FROM UP ABOVE VR</p>
+      </div>
+
+      <div id="borealis">
+        <p>POCKET BOREALIS</p>
+      </div>
+
+      <div id="curiosity">
+        <p>THE CURIOSITY</p>
+      </div>
+
+      <div id="fish">
+        <p>MAKE IT FISH EYES</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="borda"></div>
+
+  <div id="backgroundContato">
+    <section id="contato">
+      <h1>Contact Us</h1>
+      <p>Do you have any questions? Contact Loopstudios, our team is ready to serve you.</p>
+      
+      <section class="name">
+        <label for="nome">Your name:</label><br>
+        <input type="text" placeholder="Name..." id="nome">
+      </section>
+
+      <section class="email">
+        <label for="email">Your email:</label><br>
+        <input type="email" placeholder="Email..." id="email">
+      </section>      
+      <section class="number">
+        <label for="telefone">Phone number:</label><br>
+        <input type="number" placeholder="(__) ____-____ " id="telefone">
+      </section>
+
+      <section class="subject">
+        <label for="assunto">Subject:</label><br>
+        <input type="text" placeholder="Subject..." id="assunto">
+      </section>
+
+      <section class="message">
+        <label for="mensagem">Message:</label><br>
+        <textarea type="text" placeholder="Message..." id="mensagem"></textarea>
+      </section>
+      <button>Send contact<i class="fas fa-mail-bulk"></i></button>
+    </section>
+  </div>
+  <footer>
+    <section>
+      <p id="warning">Warning! All resources for the creation of this project were obtained through the following websites:
+      </p>
+      <a href="https://www.frontendmentor.io/solutions" target="_blank">https://www.frontendmentor.io/solutions</a> 
+      <a href="https://fontawesome.com/" target="_blank">https://fontawesome.com/</a>
+    </section>
+
+    <nav id="developerSocialNetworks">
+      <a href="https://github.com/felipemarques001" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/felipe-marques-011/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/felipe_marques0102/?hl=pt-br" target="_blank"><i class="fab fa-instagram"></i></a>
+    </nav>
+  </footer>
+
+<script src="./script.js"></script>
+</body>
+</html>

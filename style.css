@@ -1,0 +1,894 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    overflow-x: hidden;
+}
+
+/* ---------------VERSÃO DESKTOP------------------- */
+@media (max-width: 2000px){
+
+        /* HEADER*/
+header{
+    width: 100vw;
+    height: 90vh;
+    background-image: url(./images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15px;
+}
+#sectionLinks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#loopstudios{
+    font-size: 25px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+#ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+#ul li a{
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 14px;
+}
+
+#menuHamburger{
+    display: none; /*REMOVENDO O MENU HAMBURGUER */
+}
+
+#textHero{
+    width: 25%;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 15px 30px;
+    
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+
+        /* FIRST MAIN */
+#firstMain{
+    width: 80vw;
+
+    margin-left: 10vw;
+    display: flex;
+    
+}
+#firstMain img{
+    width: 60%;
+    margin-left: 0;
+    margin-top: 150px;
+
+    height: 62vh;
+}
+#firstMain section{
+    width: 70%;
+    margin-left: -100px;
+    text-align: initial;
+    margin-top: 250px;
+    color: #1c1c1c;
+
+    background-color: white;
+    padding: 50px;
+}
+#firstMain section h2{
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+#firstMain section p{
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+        /* SECOND MAIN */
+#secondMain{
+    margin-top: 100px;
+    width: 80vw;
+    margin-left: 10vw;
+    
+}
+#crations{ 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#secondMain h1{
+    text-align: initial;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #1c1c1c;
+    padding-bottom: 30px;
+}
+#secondMain div{
+    height: 75vh;
+    width: 19vw;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    color: whitesmoke;
+
+}
+
+#deepEarth{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), 
+    url(./images/desktop/image-deep-earth.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#deepEarth p{
+    width: 50%;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 20px;
+
+    margin-left: 10%;
+}
+
+#nightArcade{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), 
+    url(./images/desktop/image-night-arcade.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+#nightArcade p{
+    width: 80%;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 20px;
+
+    margin-left: 10%;
+}
+
+#soccer{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), 
+    url(./images/desktop/image-soccer-team.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#soccer p{
+    width: 80%;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 20px;
+
+    margin-left: 10%;
+}
+
+#grid{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), 
+    url(./images/desktop/image-grid.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#grid p{
+    width: 50%;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 20px;
+
+    margin-left: 10%;
+}
+
+#above{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), 
+    url(./images/desktop/image-from-above.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#above p{
+    width: 80%;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 20px;
+
+    margin-left: 10%;
+}
+
+#borealis{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), 
+    url(./images/desktop/image-pocket-borealis.jpg);
+    background-size: cover;
+}
+#borealis p{
+    width: 80%;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 20px;
+
+    margin-left: 10%;
+}
+
+#curiosity{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), 
+    url(./images/desktop/image-curiosity.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#curiosity p{
+    width: 80%;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 20px;
+
+    margin-left: 10%;
+}
+
+#fish{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), 
+    url(./images/desktop/image-fisheye.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#fish p{
+    width: 80%;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 20px;
+
+    margin-left: 10%;
+}
+
+        /* CONTATO */
+
+#borda{
+    margin-top: 80px;
+    height: 10px;
+    width: 100vw;
+    background-color: orchid;
+}
+#backgroundContato{
+    background-color: #1c1c1c;
+}
+#contato{
+    width: 80vw;
+    margin-left: 10vw;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    color: whitesmoke;
+}
+#contato h1{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 2px;
+    
+}
+#contato p{
+    text-align: center;
+    font-size: 16px;
+    line-height: normal;
+    margin-top: 10px;
+    opacity: 0.8;
+    padding-bottom: 40px;
+}
+#contato input{
+    width: 100%;
+    padding: 10px 10px 5px 5px;
+    border-radius: 8px;
+    border:none;
+    margin-bottom: 20px;
+}
+
+.name{
+    width: 40%;
+    display: inline-block;
+}
+.email{
+    width: 54%;
+    margin-left: 5%;
+    display: inline-block;
+}
+.number{
+    width: 30%;
+    display: inline-block;
+}
+.subject{
+    width: 64%;
+    margin-left: 5%;
+    display: inline-block;
+}
+#contato textarea{
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 8px;
+    padding: 10px 10px 5px 5px;
+    border:none;
+
+    height: 200px;
+}
+
+#contato button{
+    width: 40%;
+    border-radius: 8px;
+    padding: 10px 10px 5px 5px;
+    margin-top: 20px;
+
+    margin-left: 30%;
+
+    font-size: 20px;
+    border:none;
+    background-color: orchid;
+    color: whitesmoke;
+
+
+}
+
+#contato button i{
+    margin-left: 10px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #1c1c1c;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+footer section{
+    padding-bottom: 20px;
+
+    text-align: center;
+}
+footer section p{
+    color: whitesmoke;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+footer section a{
+    color: orchid;
+    font-size: 18px;
+    display: block;
+}
+
+footer nav{
+    width: 80vw;
+    margin-left: 10vw;
+
+    display: flex;
+    justify-content: space-between;
+}
+footer nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 40px;
+}
+}
+
+
+
+/* ----------------------VERSÃO MOBILE---------------------*/
+@media (max-width:799px){
+        /* HEADER */
+header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./images/mobile/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#sectionLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+#loopstudios{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    z-index: 3;
+}
+#sectionLinks a{
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 25px;
+}
+
+    /* PERSONALIZANDO O TEXTO QUE ESTÁ NO MEIO DA IMAGEM HERO */
+#textHero{
+    width: 93%;
+    margin-top: 180px;
+    margin-left: 3.5%;
+    font-size: 37px;
+    line-height: 40px;
+    padding: 20px;
+    letter-spacing: 3px;
+
+    color: ghostwhite;
+    border: 1px solid ghostwhite;
+}
+    /* PERSONALIZANDO O MENU HAMBURGUER */
+#menuHamburger{
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 2;
+}
+#menuHamburger div{
+    width: 32px;
+    height: 2px;
+    background-color: ghostwhite;
+    margin-bottom: 8px;
+    transition: 0.5s;
+}
+
+
+
+
+        /* PERSONALIZANDO A LISTA */
+#ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    right: 0px;
+
+    visibility: hidden;
+
+    z-index: 1;
+    transition: 0.6s;
+
+    font-size: 20px;
+    background-color: #1c1c1c;
+    width: 100vw;
+    height: 0vh;
+    overflow-y: hidden;
+}
+        /* QUANDO O MENU FOR CLICADO */
+#ul.active{
+    visibility: visible;
+    height: 100vh;
+}
+
+
+        /* PERSONALIZANDO O HAMBURGUER QUANDO O MENU FOR CLICADO */
+
+.active-button-line1{
+    display: none;
+}
+.active-button-line2{
+    transform: rotate(135deg);
+    margin-top: 10px;
+}
+.active-button-line3{
+    transform: rotate(-135deg);
+    position: relative;
+    top: -9px;
+}
+
+ /* PERSONALIZANDO O BODY QUANDO O MENU FOR CLICADO */
+.overflowBody{
+    overflow-y: hidden;
+}
+
+
+
+        /* PRIMEIRO MAIN  */
+#firstMain{
+    width: 100vw;
+    margin-left: 0px;
+    display: block;
+}
+#firstMain img{
+    width: 93%;
+    margin-left: 3.5%;
+    margin-top: 50px;
+    height: auto;
+}
+#firstMain section{
+    width: 93%;
+    margin-left: 3.5%;
+    text-align: center;
+    margin-top: 20px;
+    color: #1c1c1c;
+
+    background-color: none;
+    padding: 0;
+}
+#firstMain section h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+#firstMain section p{
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+
+        /* SEGUNDO MAIN */
+
+#crations{ 
+    display: flex;
+    flex-direction: column;
+}
+#secondMain{
+    margin-top: 100px;
+    width: 93%;
+    margin-left: 3.5%;
+}
+#secondMain h1{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #1c1c1c;
+    padding-bottom: 30px;
+}
+#secondMain div{
+    height: 20vh;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    color: whitesmoke;
+}
+
+#deepEarth{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), 
+    url(./images/mobile/image-deep-earth.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#deepEarth p{
+    width: 10%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 20px;
+
+    margin-left: 0%;
+}
+
+#nightArcade{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), 
+    url(./images/mobile/image-night-arcade.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+#nightArcade p{
+    width: 10%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 20px;
+
+    margin-left: 0%;
+}
+
+#soccer{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), 
+    url(./images/mobile/image-soccer-team.jpg);
+    background-size: cover;
+    background-position: initial;
+}
+#soccer p{
+    width: 50%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 20px;
+
+    margin-left: 0%;
+}
+
+#grid{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), 
+    url(./images/mobile/image-grid.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#grid p{
+    width: 10%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 20px;
+
+    margin-left: 0%;
+}
+
+#above{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), 
+    url(./images/mobile/image-from-above.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#above p{
+    width: 50%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 20px;
+
+    margin-left: 0%;
+}
+
+#borealis{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), 
+    url(./images/mobile/image-pocket-borealis.jpg);
+    background-size: cover;
+}
+#borealis p{
+    width: 10%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 20px;
+
+    margin-left: 0%;
+}
+
+#curiosity{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), 
+    url(./images/mobile/image-curiosity.jpg);
+    background-size: cover;
+    background-position: initial;
+}
+#curiosity p{
+    width: 10%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 20px;
+
+    margin-left: 0%;
+}
+
+#fish{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), 
+    url(./images/mobile/image-fisheye.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#fish p{
+    width: 50%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 20px;
+
+    margin-left: 0%;
+}
+
+        /* CONTATO */
+
+#borda{
+    margin-top: 80px;
+    height: 10px;
+    width: 100vw;
+    background-color: orchid;
+}
+#backgroundContato{
+    background-color: #1c1c1c;
+}
+#contato{
+    width: 93%;
+    margin-left: 3.5%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    color: whitesmoke;
+}
+#contato h1{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    
+}
+#contato p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+    opacity: 0.8;
+    padding-bottom: 40px;
+}
+#contato input{
+    width: 100%;
+    padding: 10px 10px 5px 5px;
+    border-radius: 8px;
+    border:none;
+    margin-bottom: 20px;
+}
+
+        /* ESTÁ ÁREA SÓ IRÁ SERVIR NA VERSÃO DESKTOP, MAS É PRECISO AJEITÁ-LA PARA NÃO BUGAR */
+.name{
+    width: 100%;
+    display: inline-block;
+}
+.email{
+    width: 100%;
+    margin-left: 0%;
+    display: inline-block;
+}
+.number{
+    width: 100%;
+    display: inline-block;
+}
+.subject{
+    width: 100%;
+    margin-left: 0%;
+    display: inline-block;
+}
+
+#contato textarea{
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 8px;
+    padding: 10px 10px 5px 5px;
+    border:none;
+
+    height: 200px;
+}
+#contato button{
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px 10px 5px 5px;
+    margin-top: 20px;
+
+    margin-left: 0;
+
+    font-size: 18px;
+    border:none;
+    background-color: orchid;
+    color: whitesmoke;
+}
+
+#contato button i{
+    margin-left: 5px;
+}
+
+       /* FOOTER */
+footer{
+    background-color: #1c1c1c;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+footer section{
+    padding-bottom: 20px;
+
+    text-align: initial;
+}
+footer section p{
+    color: whitesmoke;
+    margin-top: 20px;
+    font-size: 14px;
+    
+}
+footer section a{
+    color: orchid;
+    font-size: 14px;
+}
+
+footer nav{
+    width: 93%;
+    margin-left: 3.5%;
+
+    display: flex;
+    justify-content: space-between;
+}
+footer nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 30px;
+}
+     
+}  
+
+/* DANDO RESPONSIVIDADE PARA ALGUNS ELEMENTOS QUANDO ESTIVEREM EM CERTOS DISPOSITIVOS  */
+@media (min-width:457px){
+    /* PERSONALIZANDO O TEXTO QUE ESTÁ NO MEIO DA IMAGEM HERO */
+    #textHero{
+        font-size: 40px;    
+    }
+}
+@media (min-width:490px){
+    /* PERSONALIZANDO O TEXTO QUE ESTÁ NO MEIO DA IMAGEM HERO */
+    #textHero{
+        font-size: 50px;    
+    }
+}
+@media (min-width:580px){
+    /* PERSONALIZANDO O TEXTO QUE ESTÁ NO MEIO DA IMAGEM HERO */
+    #textHero{
+        width: 75%;
+        font-size: 50px;    
+    }
+}
+@media (min-width:595px){
+    /* PERSONALIZANDO O TEXTO QUE ESTÁ NO MEIO DA IMAGEM HERO */
+    #textHero{
+        width: 80%;
+        font-size: 50px;    
+    }
+}
+@media (min-width:600px){
+    /* PERSONALIZANDO O TEXTO QUE ESTÁ NO MEIO DA IMAGEM HERO */
+    #textHero{
+        width: 60%;
+        font-size: 37px;
+ 
+
+    }
+    #menuHamburger{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        z-index: 2;
+        margin-right: 20px;
+    }
+}
+@media (min-width:710px){
+    /* PERSONALIZANDO O TEXTO QUE ESTÁ NO MEIO DA IMAGEM HERO */
+    #textHero{
+        width: 60%;
+        font-size: 45px;    
+    }
+}
+@media (min-width:840px){
+    /* PERSONALIZANDO O TEXTO QUE ESTÁ NO MEIO DA IMAGEM HERO */
+    #textHero{
+        width: 50%;
+        font-size: 40px;    
+    }
+}
+@media (min-width:907px){
+    /* PERSONALIZANDO O TEXTO QUE ESTÁ NO MEIO DA IMAGEM HERO */
+    #textHero{
+        width: 40%;
+        font-size: 40px;    
+    }
+}
+@media (min-width:940px){
+    /* PERSONALIZANDO O TEXTO QUE ESTÁ NO MEIO DA IMAGEM HERO */
+    #textHero{
+        width: 45%;
+        font-size: 37px;;
+    }
+}
+@media (min-width:940px){
+    /* PERSONALIZANDO O TEXTO QUE ESTÁ NO MEIO DA IMAGEM HERO */
+    #textHero{
+        width: 45%;  
+        font-size: 40px;
+    }
+}
+@media (min-width:1000px){
+    /* PERSONALIZANDO O TEXTO QUE ESTÁ NO MEIO DA IMAGEM HERO */
+    #textHero{
+        width: 40%;
+        font-size: 40px;
+    }
+}
+@media (min-width:1080px){
+    /* PERSONALIZANDO O TEXTO QUE ESTÁ NO MEIO DA IMAGEM HERO */
+    #textHero{
+        width: 35%;
+        font-size: 40px;
+    }
+}
+@media (min-width:1100px){
+    /* PERSONALIZANDO O TEXTO QUE ESTÁ NO MEIO DA IMAGEM HERO */
+    #textHero{
+        width: 30%;
+        font-size: 40px;
+    }
+}
+
+
+
+
